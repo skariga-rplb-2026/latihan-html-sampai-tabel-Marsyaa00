@@ -1,9 +1,12 @@
 <html>
     <head>
         <title> FORM ISIAN </title>
+        <link rel="stylesheet" href="Style.css">
     </head>
     <body>
-        <h3>FORM ISIAN</h3>
+        <h1 style="color: aliceblue;">FORM ISIAN</h1>
+
+        <form method="POST">
         <table>
             <tr>
                 <td> Nama Depan </td>
@@ -74,11 +77,12 @@
             <tr>
                 <td></td>
                 <td>
-                    <input type="submit" value="KIRIM DATA">
-                    <input type="reset" value="RESET DATA">
-                    <input type="button" value="Click Me!">
+                    <input type="submit" value="KIRIM DATA" class="btn kirim">
+                    <input type="reset" value="RESET DATA" class="btn reset"> 
+                    <input type="button" value="Click Me!" class="btn klik" onclick="alert('Hallo')">
                 </td>
             </tr>
         </table>
+        </form>
     </body>
 </html>
