@@ -1,0 +1,173 @@
+@charset "utf-8";
+body {
+    background-color:rgb(250, 250, 250);
+    font-family: arial;
+}
+h2 {
+    color: rgb(170, 57, 43);
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dttabel {
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+.dttabel th {
+    padding: 5px 5px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(170, 57, 43);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.dttabel th:first-child {
+    border-left: 1px solid rgb(170, 57, 43);
+}
+.dttabel th:last-child {
+    border-right: 1px solid rgb(170, 57, 43);
+}
+.dttabel tr:nth-child(odd) {
+    height: 25px;
+    color: rgb(170, 57, 43);
+    background-color: #eeebe4;
+    font-weight: 600;
+}
+.dttabel tr:nth-child(even) {
+    height: 25px;
+    color: rgb(170, 57, 43);
+    background-color: rgb(211, 206, 159);
+}
+.dttabel tr:last-child {
+    border-bottom: 1px solid rgb(170, 57, 43);
+}
+.dtabel td:first-child {
+    border-left: 1px solid rgb(170, 57, 43);
+}
+.dttabel td:last-child {
+    border-right: 1px solid rgb(170, 57, 43);
+}
+.dttabel td:nth-child(1) {
+    text-align: center;
+}
+.dttabel td:nth-child(2) {
+    text-align: center;
+}
+.dttabel td:nth-child(4) {
+    text-align: center;
+}
+.dttabel td:nth-child(5) {
+    text-align: center;
+}
+.dttabel td:nth-child(8) {
+    text-align: center;
+}
+.dttabel tbody tr:hover {
+    background: #807e7e;
+}
+a {
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(170, 57, 43);
+    text-decoration: none;
+}
+a:link {
+    color: #d9e1e9;
+}
+a:visited {
+    color: #d9e1e9;
+}
+a:hover {
+    color: #807e7e;
+}
+a:active {
+    color: #807e7e;
+    font-weight: 600;
+    padding: 5px 14px 5px 13px;
+}
+.frtabel {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+.frtabel caption {
+    padiding: 5px 5px;
+    color: #d9e1e9;
+    background-color: rgb(170, 57, 43);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 600;
+    border: 1px solid rgb(170, 57, 43);
+}
+.frtabel td:nth-child(1) {
+    text-align: right;
+    height: 25px;
+    color: rgb(170, 57, 43);
+    background-color: #eeebe4;
+    font-weight: 600;
+    padding: 3px 10px 3px 10px;
+}
+.frtabel td:nth-child(2) {
+    text-align: left;
+    height: 25px;
+    color: rgb(170, 57, 43);
+    padding: 3px 10px 3px 10px;
+}
+.frtabel td:last-child {
+    border-bottom: 1px solid #eeebe4;
+    border-right: 1px solid #eeebe4;
+}
+.frtabel tr:nth-child(5) {
+    vertical-align: top;
+}
+input[type="text"] {
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #d9e1e9;
+    color: rgb(170, 57, 43);
+}
+input[type="date"] {
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #d9e1e9;
+    color: rgb(170, 57, 43);
+}
+input[type="Tel"] {
+     border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #d9e1e9;
+    color: rgb(170, 57, 43);
+}
+input:focus {
+    background-color: antiquewhite;
+}
+textarea {
+    border: 0px;
+    height: 25px;
+    width: 100%;
+    background-color: #d9e1e9;
+    color: rgb(170, 57, 43); 
+    height: 100px;
+}
+textarea:focus {
+    background-color: antiquewhite;
+}
+input[type="submit"] {
+    background-color: rgb(170, 57, 43); 
+    height: 25px;
+    width: 49%;
+    color: #d9e1e9;
+    border: 0px;
+}
+input[type="reset"] {
+    background-color: rgb(170, 57, 43); 
+    height: 25px;
+    width: 49%;
+    color: #d9e1e9;
+    border: 0px;
+}
